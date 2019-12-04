@@ -19,7 +19,7 @@ Use Unity 5 2018+
 ## Authors
 
 * **Pablo Perdomo Falcón** - [Pabllopf](https://github.com/pabllopf)
-* **Samuel** - [SamuelChef]()
+* **Samuel Bernal Santamaria** - [SamuelChef](https://www.instagram.com/elchef_samuel)
 
 ## License
 
