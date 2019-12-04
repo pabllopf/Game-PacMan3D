@@ -1,57 +1,14 @@
 fileFormatVersion: 2
-guid: e72c1778de99c9e4a935b1548348b63b
+guid: 8ca70706d6c01a9419f9a36d9b8a6cdb
 ModelImporter:
   serializedVersion: 26
-  internalIDToNameTable:
-  - first:
-      74: -623603649343465320
-    second: Scene
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SVGMat.001
-    second: {fileID: 2100000, guid: 1c4a6d270f921b9448f8232eb19e4c9a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: eye
-    second: {fileID: 2100000, guid: 5bf21b2823c538b4cb10480dd61ab24b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ghost1
-    second: {fileID: 2100000, guid: df38e70549a051446b85e2b4ac12a508, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ghost1.001
-    second: {fileID: 2100000, guid: 617cf3fc94c6c9a4abfa959ba497d6f8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gun
-    second: {fileID: 2100000, guid: 868b602dc4a9d2d4aa7d9ca66b10d16a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: highlight
-    second: {fileID: 2100000, guid: cad6cb46191cd914d91f179f14438e4d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: int2
-    second: {fileID: 2100000, guid: 98c2dd29665b8a242a86596b982d64e1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: internal
-    second: {fileID: 2100000, guid: 1e5f6f501f7557547ab029b5e97d78a4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ret
-    second: {fileID: 2100000, guid: 4920fa75decc0ab45a94aa37f2bb1e0f, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: a5284269f05188141be218cdf159d548, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -89,8 +46,8 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -135,7 +92,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

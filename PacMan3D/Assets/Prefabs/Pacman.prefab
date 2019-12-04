@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 43313078818354451}
   - component: {fileID: 7931932707335706729}
+  - component: {fileID: 8610346691450968091}
   - component: {fileID: 5878636687576625575}
   - component: {fileID: -8680626466705873575}
-  - component: {fileID: 8610346691450968091}
+  - component: {fileID: -459393953919977838}
+  - component: {fileID: 4932107617407170373}
   m_Layer: 0
   m_Name: Pacman
   m_TagString: Untagged
@@ -55,6 +57,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!135 &8610346691450968091
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945919482497484544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &5878636687576625575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,19 +94,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded7783ddb4092e4a9d0e764301e8d66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &8610346691450968091
-SphereCollider:
+--- !u!114 &-459393953919977838
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3945919482497484544}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b74b92f347345494180e9cb9a84c17e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4932107617407170373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3945919482497484544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3516661f35fc87f4bbbf93a7cc1b05db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5896017048666789536
 GameObject:
   m_ObjectHideFlags: 0

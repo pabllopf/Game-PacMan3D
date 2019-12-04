@@ -1,57 +1,32 @@
 fileFormatVersion: 2
-guid: e72c1778de99c9e4a935b1548348b63b
+guid: 11c66c3f2c9730b46aba6682a1802f59
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
-      74: -623603649343465320
-    second: Scene
+      74: 1827226128182048838
+    second: Take 001
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: SVGMat.001
-    second: {fileID: 2100000, guid: 1c4a6d270f921b9448f8232eb19e4c9a, type: 2}
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 21c3def05ca29524198e4e3c6868b0b4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: eye
-    second: {fileID: 2100000, guid: 5bf21b2823c538b4cb10480dd61ab24b, type: 2}
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 2c2db7e795b566b4d905685be0d21701, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ghost1
-    second: {fileID: 2100000, guid: df38e70549a051446b85e2b4ac12a508, type: 2}
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 77c5a3c513868004680d780312917e4a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: ghost1.001
-    second: {fileID: 2100000, guid: 617cf3fc94c6c9a4abfa959ba497d6f8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: gun
-    second: {fileID: 2100000, guid: 868b602dc4a9d2d4aa7d9ca66b10d16a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: highlight
-    second: {fileID: 2100000, guid: cad6cb46191cd914d91f179f14438e4d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: int2
-    second: {fileID: 2100000, guid: 98c2dd29665b8a242a86596b982d64e1, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: internal
-    second: {fileID: 2100000, guid: 1e5f6f501f7557547ab029b5e97d78a4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: ret
-    second: {fileID: 2100000, guid: 4920fa75decc0ab45a94aa37f2bb1e0f, type: 2}
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 006c736df751a544c918e420c69d0469, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

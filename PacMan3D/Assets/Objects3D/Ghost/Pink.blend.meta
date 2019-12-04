@@ -1,12 +1,57 @@
 fileFormatVersion: 2
-guid: 2942923ebb252c14eb5a908184e24c09
+guid: f4d996dae8a9de547937673cec49f034
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
   - first:
       74: -623603649343465320
     second: Scene
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SVGMat.001
+    second: {fileID: 2100000, guid: ac5bbcc1a4cdbc24b90f4a3a457be765, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye
+    second: {fileID: 2100000, guid: 392988506fb3a504fb9a39fd3026700e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ghost1
+    second: {fileID: 2100000, guid: 3daac42fc6fdbc84a9bbf20014a24704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ghost1.001
+    second: {fileID: 2100000, guid: 6e1068da9bd4d2a4fa3a19e80ab6425d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gun
+    second: {fileID: 2100000, guid: b5d2c37fef8bbec46bcf6b460409bffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: highlight
+    second: {fileID: 2100000, guid: 86481d60e85525b428b355958499ba70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: int2
+    second: {fileID: 2100000, guid: de9a047e7bdbb914a9bf581659cab2e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: internal
+    second: {fileID: 2100000, guid: 234e866c35fc2504c8f7970a15a85794, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ret
+    second: {fileID: 2100000, guid: c6026217de6967b4db9022d316ca2578, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

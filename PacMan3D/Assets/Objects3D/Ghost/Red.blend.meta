@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e72c1778de99c9e4a935b1548348b63b
+guid: 32d66f14a92f3bd4a83a3614368632ce
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
@@ -11,47 +11,47 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: SVGMat.001
-    second: {fileID: 2100000, guid: 1c4a6d270f921b9448f8232eb19e4c9a, type: 2}
+    second: {fileID: 2100000, guid: 731612bb70610954cbbc02b0b1dfb625, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: eye
-    second: {fileID: 2100000, guid: 5bf21b2823c538b4cb10480dd61ab24b, type: 2}
+    second: {fileID: 2100000, guid: 504bbd33f81d1274dbca3cd97eca57d9, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ghost1
-    second: {fileID: 2100000, guid: df38e70549a051446b85e2b4ac12a508, type: 2}
+    second: {fileID: 2100000, guid: 7dcfb47b5eaf1d5469bcb418f2544302, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ghost1.001
-    second: {fileID: 2100000, guid: 617cf3fc94c6c9a4abfa959ba497d6f8, type: 2}
+    second: {fileID: 2100000, guid: 6ff60de3446657c46a0d83956d5320d6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: gun
-    second: {fileID: 2100000, guid: 868b602dc4a9d2d4aa7d9ca66b10d16a, type: 2}
+    second: {fileID: 2100000, guid: 2f7359b9bfaf07145a3cb0d2dd165e08, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: highlight
-    second: {fileID: 2100000, guid: cad6cb46191cd914d91f179f14438e4d, type: 2}
+    second: {fileID: 2100000, guid: a63b7bdc2f81246428203a81db7d953d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: int2
-    second: {fileID: 2100000, guid: 98c2dd29665b8a242a86596b982d64e1, type: 2}
+    second: {fileID: 2100000, guid: ffb7f8d719b04314c94e526f62da515f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: internal
-    second: {fileID: 2100000, guid: 1e5f6f501f7557547ab029b5e97d78a4, type: 2}
+    second: {fileID: 2100000, guid: a15eb95c5f26b5449bb1e6aa3fd0040b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: ret
-    second: {fileID: 2100000, guid: 4920fa75decc0ab45a94aa37f2bb1e0f, type: 2}
+    second: {fileID: 2100000, guid: 802ab2dcdfa29e54687cfd5754a3484b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
