@@ -30,10 +30,10 @@ GNU General Public License v3.0
 * Thanks to my friend **Samuel** for proposing this incredible and fun challenge. It also could not have been done without your help and great ideas.
 
 * Thank you all for distributing these 3d designs for free. Without you it could not have been possible.
--- hazelnutt - [hazelnutt](https://sketchfab.com/hazelnutt)- The bullet
--- Freddy drabble - [Freddydrabble](https://sketchfab.com/FredDrabble) - The Coin
--- Chaitanya Krishnan - [ChaitanyaKrishnan](https://sketchfab.com/chaitanyak) - The Ghosts
--- C.S. Taylor, Jr. - [Taylor](https://www.youtube.com/channel/UC11_YbTBCny2xVh_zVJ1Pqw) - The Pacman
--- Patrickdearteaga - [patrickdearteaga](https://patrickdearteaga.com) - The SoundTrack
+- hazelnutt - [hazelnutt](https://sketchfab.com/hazelnutt)- The bullet
+- Freddy drabble - [Freddydrabble](https://sketchfab.com/FredDrabble) - The Coin
+- Chaitanya Krishnan - [ChaitanyaKrishnan](https://sketchfab.com/chaitanyak) - The Ghosts
+- C.S. Taylor, Jr. - [Taylor](https://www.youtube.com/channel/UC11_YbTBCny2xVh_zVJ1Pqw) - The Pacman
+- Patrickdearteaga - [patrickdearteaga](https://patrickdearteaga.com) - The SoundTrack
 
 
