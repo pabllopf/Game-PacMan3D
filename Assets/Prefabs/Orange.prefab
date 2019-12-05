@@ -278,13 +278,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3191585376587167635}
-  - component: {fileID: 4810066761881459433}
   - component: {fileID: -2838669885276232045}
   - component: {fileID: -8526815559021600651}
   - component: {fileID: -5155242149285750884}
+  - component: {fileID: -5158161546910613412}
+  - component: {fileID: -1116134056707439416}
   m_Layer: 0
   m_Name: Orange
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,8 +298,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878441010029774208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.31857157, y: -12.970326, z: -4.630977}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children:
   - {fileID: 53352615631409149}
   - {fileID: 5761773119689226752}
@@ -312,25 +313,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &4810066761881459433
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878441010029774208}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2942923ebb252c14eb5a908184e24c09, type: 3}
-  m_Controller: {fileID: 9100000, guid: 12ce53178d0b59b4680121a3dfad49f0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!135 &-2838669885276232045
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -342,8 +324,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.3664296
+  m_Center: {x: 0, y: 0.86642957, z: 0}
 --- !u!114 &-8526815559021600651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,6 +338,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a54ad827921994d408a7c777e291965c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet: {fileID: 4417015775856088113, guid: 202ef6d13ad12fc48a8d30e99b34c365, type: 3}
+  timeToShot: 1
+  distance: 35
 --- !u!114 &-5155242149285750884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +353,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b74b92f347345494180e9cb9a84c17e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: 0
+  gameover: {fileID: 4417015775856088113, guid: 202ef6d13ad12fc48a8d30e99b34c365,
+    type: 3}
+  health: 100
+  soundtrack: {fileID: 0}
+--- !u!54 &-5158161546910613412
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878441010029774208}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!195 &-1116134056707439416
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878441010029774208}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1
+  m_Speed: 15
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 0
+  m_StoppingDistance: 10
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &3145041569140413828
 GameObject:
   m_ObjectHideFlags: 0

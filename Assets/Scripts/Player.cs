@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
+        Time.timeScale = 1;
     }
 
     private void Update()
