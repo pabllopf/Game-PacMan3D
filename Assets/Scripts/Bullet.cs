@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     private Vector3 direction = Vector3.zero;
 
     /// <summary>The speed</summary>
-    private float speed = 10f;
+    private float speed = 20f;
 
     /// <summary>Called when [trigger enter].</summary>
     /// <param name="obj">The object.</param>
@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
     {
         if (obj.CompareTag("Player"))
         {
-            obj.GetComponent<Health>().TakeHealth(Random.Range(1, 11));
+            obj.GetComponent<Health>().TakeHealth(10);
             GameObject.FindGameObjectWithTag("Damage").GetComponent<AudioSource>().Play();
             MonoBehaviour.Destroy(this.gameObject);
         }

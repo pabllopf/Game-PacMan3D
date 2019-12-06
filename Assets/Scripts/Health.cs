@@ -44,6 +44,7 @@ public class Health : MonoBehaviour
             if ((health + amount) < 100 && health > 0)
             {
                 health += amount;
+                GameObject.FindGameObjectWithTag("Scroll").GetComponent<Scrollbar>().size += (amount / 100f);
             }
         }
     }
