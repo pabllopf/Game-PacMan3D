@@ -3,6 +3,7 @@
 // <copyright file="Wallet.cs" company="Pabllopf">GNU General Public License v3.0</copyright>
 //-------------------------------------------------------------------------------------------
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>Control the limit of coins of the player.</summary>
 public class Wallet : MonoBehaviour
@@ -12,6 +13,7 @@ public class Wallet : MonoBehaviour
     public GameObject gameover;
     public GameObject win;
     public GameObject soundtrack;
+    public GameObject point;
 
     private void Start()
     {
@@ -22,6 +24,7 @@ public class Wallet : MonoBehaviour
     public void TakeCoin()
     {
         this.coins++;
+        point.GetComponent<Text>().text = coins.ToString();
         if (this.coins >= this.limitToWin) 
         {
             win.SetActive(true);

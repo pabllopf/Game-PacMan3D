@@ -2,6 +2,7 @@
 // <author>Pablo Perdomo Falcón</author>
 // <copyright file="Ghost.cs" company="Pabllopf">GNU General Public License v3.0</copyright>
 //-------------------------------------------------------------------------------------------
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -26,6 +27,9 @@ public class Ghost : MonoBehaviour
     /// <summary>The mesh agent</summary>
     private NavMeshAgent navMeshAgent = null;
 
+    private bool stopthis = false;
+    private float timereset = 5;
+
     /// <summary>Starts this instance.</summary>
     private void Start()
     {
@@ -37,9 +41,21 @@ public class Ghost : MonoBehaviour
     /// <summary>Updates this instance.</summary>
     private void Update()
     {
-        this.LookAtPlayer();
-        this.MoveToTarget();
-        this.Shoot();
+        if (!stopthis)
+        {
+            this.LookAtPlayer();
+            this.MoveToTarget();
+            this.Shoot();
+        }
+        else 
+        {
+            timereset -= Time.deltaTime;
+            if (timereset >= 0) 
+            {
+                timereset = 5;
+                stopthis = false;
+            }
+        }
     }
 
     /// <summary>Looks at player.</summary>
@@ -89,4 +105,10 @@ public class Ghost : MonoBehaviour
             }
         }
     }
+
+    public void StopATime() 
+    {
+        stopthis = true;
+    }
+
 }
